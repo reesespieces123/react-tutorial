@@ -1,29 +1,12 @@
-.visible {
-  display: block;
-}
-.invisible {
-  display: none;
-}
+.visible { display: block; }
+.invisible { display: none; }
+.answer, .button { display: none; }
 
-.answer,
-.button {
-  display: none;
-}
+.disabled { pointer-events: none; }
 
-.disabled {
-  pointer-events: none;
-}
+.correct { color: green; }
+.incorrect { color: red; }
 
-.correct {
-  color: green;
-}
-.incorrect {
-  color: red;
-}
+.green a::before { background: green; }
+.red a::before { background: red; }
 
-.green a::before {
-  background: green;
-}
-.red a::before {
-  background: red;
-}
