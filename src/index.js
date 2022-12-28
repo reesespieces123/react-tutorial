@@ -117,7 +117,7 @@ const Quiz = ({ numSlide, question, options, answer }) => (
       Question {numSlide} out of {data.length}
     </p>
     <h2>{question}</h2>
-    <ol className="options">
+    <ol className="options" id="buttons">
       {options.map((option, i) => (
         <li
           onClick={(e) => showAnswer(answer, option.option, e)}

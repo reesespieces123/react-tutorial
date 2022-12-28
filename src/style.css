@@ -10,3 +10,27 @@
 .green a::before { background: green; }
 .red a::before { background: red; }
 
+body {
+  background-color:black;
+  color: white;
+}
+h1 {
+  color: aqua;
+}
+h2{
+  color: white;
+}
+button{
+  background-color: aqua;
+  color: black;
+}
+#buttons li a {
+ text-decoration: none;
+  color: black;
+  display: block; 
+}
+#buttons li a:hover {
+  text-decoration: none;
+  color: aqua;
+  background-color: #33B5E5;
+}
